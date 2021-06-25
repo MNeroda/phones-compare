@@ -1,0 +1,106 @@
+.info-panel {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-panel h1 {
+    color: #828286;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.number-phones {
+    color: #0D5ADC;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 3px;
+}
+
+.number-phones ul {
+    display: flex;
+    gap: 2px;
+}
+
+.number-phones li {
+    list-style: none;
+}
+
+.active-numbers-phone:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #0D5ADC;
+}
+
+
+
+.phones-list {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phones-list-different {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #0D5ADC;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.phones-list-item {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.phones-list-item-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+
+
+.table-compare {
+    background: #ebf4fd;
+}
+
+.row-table {
+    padding: 30px 0;
+    border: #CDCFD2 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-table {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.field-info {
+    color: #A4A9B9;
+    font-weight: 500;
+    font-size: 18px;
+    width: 200px;
+
+}
+
+.field-phone {
+    text-align: center;
+}

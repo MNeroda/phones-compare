@@ -1,0 +1,35 @@
+nav {
+    width: 100%;
+    border-bottom: #A6A5A9 solid 1px;
+}
+
+.content-box {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #0D5ADC;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.content-box ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    color: #3B4157;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
