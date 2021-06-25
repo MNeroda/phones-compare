@@ -1,5 +1,5 @@
 import {PhonesAction, PhonesActionTypesEnum, IPhonesCompareState} from "../../types/phones";
-import {phones} from "../../model/phones";
+import {phones} from "../../data/phones";
 
 const initialState: IPhonesCompareState = {
     phones: phones,

@@ -3,7 +3,7 @@ import {useTypedSelector} from "../../hooks/useTypedSelector";
 import {useDispatch} from "react-redux";
 import {changeNumberVisible, initVisible} from "../../store/action-creators/phones";
 import "./styles.css"
-import {TranslateField} from "../../model/phones";
+import {TranslateField} from "../../data/phones";
 import {ChangeWindow} from "../ChangeWindow/ChangeWindow";
 
 export const ComparePhones: React.FC = () => {
